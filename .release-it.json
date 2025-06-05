@@ -1,0 +1,36 @@
+{
+  "git": {
+    "requireBranch": "main",
+    "commitMessage": "chore(release): release v${version}"
+  },
+  "hooks": {
+    "before:init": "git pull",
+    "after:bump": "pnpm run build"
+  },
+  "github": {
+    "release": true
+  },
+  "npm": {
+    "publish": true
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "infile": "CHANGELOG.md",
+      "ignoreRecommendedBump": true,
+      "strictSemVer": true,
+      "preset": {
+        "name": "conventionalcommits",
+        "types": [
+          {
+            "type": "feat",
+            "section": "✨ Features"
+          },
+          {
+            "type": "fix",
+            "section": "🐛 Bug Fixes"
+          }
+        ]
+      }
+    }
+  }
+}
