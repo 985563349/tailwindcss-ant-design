@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-ant-design",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Tailwind CSS plugin for Ant Design integration",
   "type": "module",
   "scripts": {
