@@ -37,7 +37,7 @@ The `ant` classes can adapt to the ant design theme you configure, but it requir
 <ConfigProvider
   theme={{
     token: { colorPrimary: '#00b96b' },
-    cssVar: true,
+    // cssVar: true, // 🔔 antd v5 enable css variable to follow theme color
   }}
 >
   <App>

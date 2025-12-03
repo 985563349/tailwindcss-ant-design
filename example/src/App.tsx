@@ -13,7 +13,6 @@ export default function () {
           <ConfigProvider
             theme={{
               token: { colorPrimary },
-              cssVar: true,
             }}
           >
             <App>

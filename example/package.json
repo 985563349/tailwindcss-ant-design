@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@ant-design/cssinjs": "^1.23.0",
-    "antd": "^5.25.4",
+    "antd": "^6.0.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
